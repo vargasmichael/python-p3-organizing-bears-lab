@@ -29,9 +29,9 @@ class TestCreate:
         '''creates a table "bears" with a column "color".'''
         assert(cursor.execute("SELECT color FROM bears;"))
 
-    def test_creates_bears_with_temperament_column(self):
-        '''creates a table "bears" with a column "temperament".'''
-        assert(cursor.execute("SELECT temperament FROM bears;"))
+    def test_creates_bears_with_temperment_column(self):
+        '''creates a table "bears" with a column "temperment".'''
+        assert(cursor.execute("SELECT temperment FROM bears;"))
 
     def test_creates_bears_with_alive_column(self):
         '''creates a table "bears" with a column "alive".'''
